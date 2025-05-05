@@ -2,6 +2,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <cstdlib>
 #include <time.h>
 
 
@@ -1191,5 +1192,7 @@ int main(int argc, char* argv[])
     glutIdleFunc(idle);
 
     glutMainLoop();
+    
+    system("PAUSE");
     return 0;
 }
